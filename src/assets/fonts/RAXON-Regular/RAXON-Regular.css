@@ -1,0 +1,12 @@
+/* Webfont: RAXON-Regular */@font-face {
+    font-family: 'RAXON-Regular';
+    /*src: url('RAXON-Regular.eot'); !* IE9 Compat Modes *!*/
+    src: /*url('RAXON-Regular.eot?#iefix') format('embedded-opentype'), *//* IE6-IE8 */
+         url('RAXON-Regular.woff') format('woff'), /* Modern Browsers */
+         url('RAXON-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('RAXON-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

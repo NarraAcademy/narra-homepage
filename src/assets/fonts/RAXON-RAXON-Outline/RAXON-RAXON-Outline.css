@@ -1,0 +1,12 @@
+/* Webfont: RAXON-RAXON-Outline */@font-face {
+    font-family: 'RAXON-RAXON-Outline';
+    /*src: url('RAXON-RAXON-Outline.eot'); !* IE9 Compat Modes *!*/
+    src: /*url('RAXON-RAXON-Outline.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('RAXON-RAXON-Outline.woff') format('woff'), /* Modern Browsers */
+         url('RAXON-RAXON-Outline.woff2') format('woff2'), /* Modern Browsers */
+         url('RAXON-RAXON-Outline.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

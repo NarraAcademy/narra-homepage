@@ -1,0 +1,12 @@
+/* Webfont:KrossNeueGrotesk-HeavyItalic */@font-face {
+ font-family: 'KrossNeueGrotesk-HeavyItalic';
+ src: url('KrossNeueGrotesk-HeavyItalic.eot'); /* IE9 Compat Modes */
+ src: url('KrossNeueGrotesk-HeavyItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+ url('KrossNeueGrotesk-HeavyItalic.woff') format('woff'), /* Modern Browsers */
+ url('KrossNeueGrotesk-HeavyItalic.woff2') format('woff2'), /* Modern Browsers */
+ url('KrossNeueGrotesk-HeavyItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+ font-style: normal;
+ font-weight: normal;
+ text-rendering: optimizeLegibility;
+}
+

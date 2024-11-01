@@ -1,0 +1,12 @@
+/* Webfont:KrossNeueGrotesk-Light */@font-face {
+    font-family: 'KrossNeueGrotesk-Light';
+    src: url('KrossNeueGrotesk-Light.eot'); /* IE9 Compat Modes */
+    src: url('KrossNeueGrotesk-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('KrossNeueGrotesk-Light.woff') format('woff'), /* Modern Browsers */
+    url('KrossNeueGrotesk-Light.woff2') format('woff2'), /* Modern Browsers */
+    url('KrossNeueGrotesk-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
