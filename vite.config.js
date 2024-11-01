@@ -4,6 +4,7 @@ import {fileURLToPath, URL} from 'node:url'
 import viteCompression from "vite-plugin-compression";
 
 export default defineConfig({
+    base: '/narra-homepage/',
     plugins: [
         vue(),
         viteCompression({
