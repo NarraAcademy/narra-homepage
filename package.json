@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://NarraAcademy.github.io/homepage",
+  "homepage": "https://NarraAcademy.github.io/narra-homepage",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
