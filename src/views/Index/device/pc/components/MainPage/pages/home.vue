@@ -11,11 +11,14 @@
     <div class="page-inner">
       <div class="page-home">
         <div class="text">
-          <span class="text-1">The first</span>
-          <br>
-          <span class="text-2">community-owned</span>
-          <br>
-          <span class="yellow text-3">AI edutainment</span>
+
+
+        <span class="text-1">The AI-powered  </span>
+        <br>
+        <span class="text-2">Web3 to Web2</span>
+
+        <br>
+        <span class=" yellow text-3"> AI Agent Hatchery</span>
         </div>
         <transition name="left-in">
           <div v-if="visible" class="mascot"></div>

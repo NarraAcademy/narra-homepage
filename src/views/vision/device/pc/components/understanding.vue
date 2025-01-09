@@ -3,12 +3,9 @@
     <Transition name="opacity">
       <div v-if="textVisible" class="zaigo-text">
         <h1 class="title">Understanding Narra</h1>
-        <div class="zaigo-des">At Narra, we're bullish about you. That's why we're consumer-first,
-          game-first, and
-          story-first. We're blending the excitement of the crypto community with cutting-edge AI technology, while
-          placing
-          the power of creativity and evolution in everyone's hands. We're paving the way for a new era of digital
-          storytelling, gamification, and interactive experiences. 
+        <div class="zaigo-des">At Narra, we’re bullish about our users, whom we call Trainers. That’s why we’re consumer-first, game-first, and story-first. We’re blending the excitement of “crypto cults,” with cutting-edge AI technology, while placing the power of creativity and evolution in everyone’s hands!
+
+          
         </div>
         <h2 class="subtitle">Become a Narra. Be part of the grand Narra+IVE!</h2>
       </div>
