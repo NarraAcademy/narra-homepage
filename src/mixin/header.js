@@ -55,10 +55,10 @@ export default () => {
         //             name: "Our Legacy",
         //             route: "#ourLegacy",
         //         },
-        {
-            name: "Chat",
-            route: "chat",
-        },
+        // {
+        //     name: "Chat",
+        //     route: "chat",
+        // },
         //     ]
         // },
         {

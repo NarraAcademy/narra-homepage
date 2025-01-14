@@ -4,7 +4,7 @@
     <div class="page-inner">
       <understanding/>
       <team/>
-      <news/>
+      <!-- <news/> -->
     </div>
     <com-footer/>
   </div>

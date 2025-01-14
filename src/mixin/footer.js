@@ -58,12 +58,12 @@ export default ()=>{
                 route: "/",
             },
         ],
-        [
-            {
-                name: "Chat",
-                route: "chat",
-            },
-        ],
+        // [
+        //     {
+        //         name: "Chat",
+        //         route: "chat",
+        //     },
+        // ],
         [
             {
                 name: "Everything Narra",
