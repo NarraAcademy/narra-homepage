@@ -17,7 +17,7 @@ const emit = defineEmits(["update:activeId"]);
 const props = defineProps(['activeId'])
 const {cardList} = mixin()
 const clickHandle = (i)=>{
-  emit('update:activeId',i.id)
+  emit('update:activeId', i.id)
 }
 
 </script>

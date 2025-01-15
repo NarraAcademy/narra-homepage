@@ -45,15 +45,16 @@
           </transition>
         </div>
         <transition name="left-in">
-          <div v-if="visible" class="card" @click="isCardActive = !isCardActive">
+          <div v-if="visible" class="card" >
+            <!-- <img :src="cardList.find(i=>i.id === activeId)?.cardDefault" alt=""> -->
             <div class="card-face"
                  :class="(isCardActive?'back':'front')+' '+('card-face-'+cardList.find(i=>i.id === activeId)?.id)">
               <img :src="cardList.find(i=>i.id === activeId)?.cardDefault" alt="">
             </div>
-            <div class="card-face"
+            <!-- <div class="card-face"
                  :class="(isCardActive?'front':'back')+' '+('card-face-'+cardList.find(i=>i.id === activeId)?.id)">
               <img :src="cardList.find(i=>i.id === activeId)?.cardActive" alt="">
-            </div>
+            </div> -->
           </div>
         </transition>
         <swiper-card class="swiper-card" v-model:activeId="activeId"/>
@@ -63,7 +64,7 @@
 </template>
 
 <script setup>
-import mixin from '@/mixin/zaigo.js'
+import mixin from '@/mixin/bera-fwens.js'
 import {ref} from "vue";
 import {useAppState} from "@/store/modules/app.js";
 import SwiperCard from "@/views/Index/device/pc/components/MainPage/components/swiperCardV2.vue";
@@ -490,19 +491,42 @@ const appState = useAppState()
   perspective: 1000px; /* 视距，用于3D效果 */
   cursor: pointer;
 
+ 
+  
+
   .card-face {
     width: 100%;
     height: 100%;
     position: absolute;
     backface-visibility: hidden; /* 隐藏背面 */
     transition: 0.6s ease; /* 添加过渡效果 */
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
     img {
-      max-width: 236px;
+      max-width: 500px;
       max-height: 474px;
-      width: 18cqw;
-      height: 36cqw;
+
+
+
     }
   }
+
+  @keyframes appearAnimation {
+      0% {
+        transform: scale(0.8) rotate(-15deg) translateY(50px);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1.1) rotate(10deg) translateY(10px);
+        opacity: 0.8;
+      }
+      100% {
+        transform: scale(1) rotate(0deg) translateY(0);
+        opacity: 1;
+      }
+    }
 
   .card-face-1 {
     animation: card-face-1 1.5s linear infinite;

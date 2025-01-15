@@ -52,8 +52,8 @@ export default () => {
             zaiSelector: `${zaiGoBaseUrl}Zai Selector-${i.id}.png`,
             zaiSelectorActive: `${zaiGoBaseUrl}zaiSelector-active-${i.id}.png`,
             cardActive: `${zaiGoBaseUrl}card-active-${i.id}.png`,
-            cardDefault: `${zaiGoBaseUrl}card-default (${i.id}).png`,
-            figure: `${zaiGoBaseUrl}figure-${i.id}.png`,
+            cardDefault: `${zaiGoBaseUrl}card-default-${i.id}.png?v=2`,
+            figure: `${zaiGoBaseUrl}figure-${i.id}.png?v=2`,
             figureBg: `${zaiGoBaseUrl}bg (${i.id}).png`,
         }
     })
