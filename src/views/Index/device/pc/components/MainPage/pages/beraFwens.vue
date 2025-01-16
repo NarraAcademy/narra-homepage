@@ -23,7 +23,7 @@
     <transition name="opacity">
       <div v-if="visible" class="page-inner">
         <div class="camouflage"></div>
-        <img class="shapes" :src="cardList.find(i=>i.id === activeId)?.shapes" alt="">
+        <!-- <img class="shapes" :src="cardList.find(i=>i.id === activeId)?.shapes" alt=""> -->
         <!--      <img class="shapes" :src="cardList.find(i=>i.id === activeId)?.shapes" alt="">-->
         <div class="center">
           <transition name="scale-in">
@@ -303,26 +303,24 @@ const appState = useAppState()
   // height: 600px;
   // top: -28px;
   // left: 50%;
-  transform: translateX(-50%) rotateZ(30deg) scale(1.2);
-  width: 700px;
-
-
-top: 25%;
-left: 50%;
+  transform: translateX(-50%) rotateZ(0deg) scale(1.2);
+  max-width: 900px;
+  top: 25%;
+  left: 50%;
 
 }
 
 .figure-bg-1-enter-from,
 .figure-bg-1-leave-to {
   opacity: 0;
-  transform: translateX(-50%) rotateZ(0deg);
+  transform: translateX(-50%) rotateZ(30deg);
   transition: opacity 0.3s, transform 0.3s;
 }
 
 .figure-bg-1-enter-to {
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s 0.1s;
-  transform: translateX(-50%) rotateZ(30deg) scale(1.2);
+  transform: translateX(-50%) rotateZ(0deg) scale(1.2);
 }
 
 
@@ -354,30 +352,29 @@ left: 50%;
 }
 
 .figure-bg-3 {
-  width: 700px;
+  max-width: 900px;
 
 
-  top: 25%;
+  top: 0%;
   left: 50%;
-  transform: translateX(-50%) rotateZ(-46.5deg) scale(1.15);
+  transform: translateX(-50%) rotateZ(0deg) scale(1.15);
 }
 
 .figure-bg-3-enter-from,
 .figure-bg-3-leave-to {
   opacity: 0;
-  transform: translateX(-50%) rotateZ(0deg);
+  transform: translateX(-50%) rotateZ(-46.5deg);
   transition: opacity 0.3s, transform 0.3s;
 }
 
 .figure-bg-3-enter-to {
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s 0.1s;
-  transform: translateX(-50%) rotateZ(-46.5deg) scale(1.15);
+  transform: translateX(-50%) rotateZ(0deg) scale(1.15);
 }
 
 .figure-bg-4 {
-  width: 1435px;
-  height: 768px;
+  max-width: 900px;
   top: 0px;
   left: 50%;
   transform: translateX(-50%) rotateZ(0deg) scale(1);
