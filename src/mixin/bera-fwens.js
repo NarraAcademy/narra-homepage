@@ -55,7 +55,7 @@ export default () => {
             cardActive: `${zaiGoBaseUrl}card-active-${i.id}.png`,
             cardDefault: `${zaiGoBaseUrl}card-default-${i.id}.png?v=5`,
             figure: `${zaiGoBaseUrl}figure-bf-${i.id}.png?v=2`,
-            figureBg: `${zaiGoBaseUrl}bf bg ${i.id}.png?v=2`,
+            figureBg: `${zaiGoBaseUrl}bf bg ${i.id}.png?v=6`,
         }
     })
     const visible = ref(false)

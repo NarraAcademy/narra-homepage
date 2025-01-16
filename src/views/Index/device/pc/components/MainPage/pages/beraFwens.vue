@@ -41,7 +41,7 @@
             <img v-show="i.id === activeId" class="figure-bg" :class="'figure-bg-'+i.id" :src="i.figureBg" alt="">
           </transition>
           <transition name="aopacity" v-for="i in cardList" :key="i.id">
-            <img v-show="i.id === activeId" class="figure" :class="'figure-'+i.id" :src="i.figure" alt="">
+            <img v-show="i.id === activeId" class="figure" :class="figure" :src="i.figure" alt="">
           </transition>
         </div>
         <transition name="left-in">
@@ -296,6 +296,10 @@ const appState = useAppState()
 
 .figure-bg {
   position: absolute;
+  transform: translateX(-50%) rotateZ(0deg) scale(1.2);
+  max-height: 654px;
+  top: 15%;
+  left: 50%;
 }
 
 .figure-bg-1 {
@@ -303,10 +307,7 @@ const appState = useAppState()
   // height: 600px;
   // top: -28px;
   // left: 50%;
-  transform: translateX(-50%) rotateZ(0deg) scale(1.2);
-  max-width: 900px;
-  top: 25%;
-  left: 50%;
+  
 
 }
 
@@ -325,39 +326,24 @@ const appState = useAppState()
 
 
 .figure-bg-2 {
-  // width: 1587px;
-  // height: 1631px;
-  // top: -384px;
-  // left: 50%;
-  // transform: translateX(-50%) rotateZ(0deg);
-  // width: 1435px;
-  // height: 768px;
-  max-height: 800px;
-  top: 0px;
-  left: 50%;
-  transform: translateX(-50%) rotateZ(0deg) scale(1);
+
 }
 
 .figure-bg-2-enter-from,
 .figure-bg-2-leave-to {
   opacity: 0;
-  transform: translateX(-50%) rotateZ(50deg) scale(0.8);
+  transform: translateX(-50%) rotateZ(50deg) ;
   transition: opacity 0.3s, transform 0.3s;
 }
 
 .figure-bg-2-enter-to {
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s 0.1s;
-  transform: translateX(-50%) rotateZ(0deg);
+  transform: translateX(-50%) rotateZ(0deg) scale(1.2);
 }
 
 .figure-bg-3 {
-  max-width: 900px;
 
-
-  top: 0%;
-  left: 50%;
-  transform: translateX(-50%) rotateZ(0deg) scale(1.15);
 }
 
 .figure-bg-3-enter-from,
@@ -370,20 +356,16 @@ const appState = useAppState()
 .figure-bg-3-enter-to {
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s 0.1s;
-  transform: translateX(-50%) rotateZ(0deg) scale(1.15);
+  transform: translateX(-50%) rotateZ(0deg) scale(1.2);
 }
 
 .figure-bg-4 {
-  max-width: 900px;
-  top: 0px;
-  left: 50%;
-  transform: translateX(-50%) rotateZ(0deg) scale(1);
+
 }
 
 .figure-bg-4-enter-from,
 .figure-bg-4-leave-to {
   opacity: 0;
-  top: -21px;
   transform: translateX(-50%) rotateZ(56deg) scale(0.8);
   transition: opacity 0.3s, transform 0.3s;
 }
@@ -391,21 +373,12 @@ const appState = useAppState()
 .figure-bg-4-enter-to {
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s 0.1s;
-  transform: translateX(-50%) rotateZ(0deg) scale(1);
+  transform: translateX(-50%) rotateZ(0deg) scale(1.2);
 }
 
 .figure-bg-5 {
-  // width: 1368px;
-  // height: 650px;
-  // top: 43px;
-  // left: 50%;
-  // transform: translateX(-50%) rotateZ(0deg) scale(1);
-  // width: 1435px;
-  // height: 768px;
-  max-height: 800px;
-  top: 0px;
-  left: 50%;
-  transform: translateX(-50%) rotateZ(0deg) scale(1);
+ 
+
 }
 
 .figure-bg-5-enter-from,
@@ -419,8 +392,7 @@ const appState = useAppState()
 .figure-bg-5-enter-to {
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s 0.1s;
-  // top: 43px;
-  transform: translateX(-50%) rotateZ(0deg) scale(1);
+  transform: translateX(-50%) rotateZ(0deg) scale(1.2);
 }
 
 
@@ -446,46 +418,39 @@ const appState = useAppState()
   z-index: 3;
 }
 
-.figure-1 {
-  width: 654px;
-  height: 830px;
+.figure {
+  max-height: 830px;
   top: 10px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .figure-2 {
-  z-index: 5;
-  width: 640px;
-  height: 809px;
-  top: 0px;
+  max-height: 830px;
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .figure-3 {
-  width: 579px;
-  height: 735px;
-  top: 31px;
+  max-height: 830px;
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .figure-4 {
-  width: 588px;
-  height: 747px;
-  top: 36px;
+  max-height: 830px;
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .figure-5 {
-  width: 627px;
-  height: 796px;
-  top: 4px;
+  max-height: 830px;
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 5;
 }
 
 .figure-6 {
@@ -521,6 +486,7 @@ const appState = useAppState()
     display: flex;
     justify-content: center;
     align-items: end;
+    top: 150px;
     img {
       max-width: 500px;
       max-height: 474px;
