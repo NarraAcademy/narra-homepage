@@ -210,6 +210,7 @@ const appState = useAppState()
 
 .center {
   position: absolute;
+
   left: 50%;
   transform: translateX(-65%);
   height: 100%;
@@ -297,11 +298,17 @@ const appState = useAppState()
 }
 
 .figure-bg-1 {
-  width: 653px;
-  height: 600px;
-  top: -28px;
-  left: 50%;
+  // width: 653px;
+  // height: 600px;
+  // top: -28px;
+  // left: 50%;
   transform: translateX(-50%) rotateZ(30deg) scale(1.2);
+  width: 700px;
+
+
+top: 25%;
+left: 50%;
+
 }
 
 .figure-bg-1-enter-from,
@@ -319,11 +326,17 @@ const appState = useAppState()
 
 
 .figure-bg-2 {
-  width: 1587px;
-  height: 1631px;
-  top: -384px;
+  // width: 1587px;
+  // height: 1631px;
+  // top: -384px;
+  // left: 50%;
+  // transform: translateX(-50%) rotateZ(0deg);
+  // width: 1435px;
+  // height: 768px;
+  max-height: 800px;
+  top: 0px;
   left: 50%;
-  transform: translateX(-50%) rotateZ(0deg);
+  transform: translateX(-50%) rotateZ(0deg) scale(1);
 }
 
 .figure-bg-2-enter-from,
@@ -340,9 +353,10 @@ const appState = useAppState()
 }
 
 .figure-bg-3 {
-  width: 868.39px;
-  height: 849.61px;
-  top: 25px;
+  width: 700px;
+
+
+  top: 25%;
   left: 50%;
   transform: translateX(-50%) rotateZ(-46.5deg) scale(1.15);
 }
@@ -383,9 +397,15 @@ const appState = useAppState()
 }
 
 .figure-bg-5 {
-  width: 1368px;
-  height: 650px;
-  top: 43px;
+  // width: 1368px;
+  // height: 650px;
+  // top: 43px;
+  // left: 50%;
+  // transform: translateX(-50%) rotateZ(0deg) scale(1);
+  // width: 1435px;
+  // height: 768px;
+  max-height: 800px;
+  top: 0px;
   left: 50%;
   transform: translateX(-50%) rotateZ(0deg) scale(1);
 }
@@ -393,7 +413,7 @@ const appState = useAppState()
 .figure-bg-5-enter-from,
 .figure-bg-5-leave-to {
   opacity: 0;
-  top: 31px;
+  // top: 31px;
   transform: translateX(-50%) rotateZ(41deg) scale(0.82);
   transition: opacity 0.3s, transform 0.3s;
 }
@@ -401,7 +421,7 @@ const appState = useAppState()
 .figure-bg-5-enter-to {
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s 0.1s;
-  top: 43px;
+  // top: 43px;
   transform: translateX(-50%) rotateZ(0deg) scale(1);
 }
 
@@ -471,8 +491,7 @@ const appState = useAppState()
 }
 
 .figure-6 {
-  width: 1106px;
-  height: 728px;
+
   top: 4px;
   left: 50%;
   transform: translateX(-50%);

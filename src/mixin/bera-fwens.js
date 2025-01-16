@@ -13,31 +13,31 @@ export default () => {
         {
             id: 3,
             color:'#F9490F',
-            des: 'Listen up: we’re going to be the first ZAI崽 and human partnership ever. You in?',
+            des: 'You see dis egg? It doesn’t struggle or try too hard. It only has to hatch. Be like this egg.',
 
         },
         {
             id: 4,
             color:'#47B6F4',
-            des: 'By my calculations, adopting me will most likely result in an uptick in your personal fulfilment and happiness.',
+            des: 'Bodiak winter is upon us. So just set it, forget it, and let\'s majin the future together! And did I say... \'bodiak\'?',
 
         },
         {
             id: 2,
             color:'#AB4FEA',
-            des: 'Don’t be mistaken: I’m not asking you to adopt me because I like you or anything, okay?',
+            des: 'Hi, do you have a moment or 69-hours to talk about our lord and savior, Proof of Liquidity?',
            
         },
         {
             id: 5,
             color:'#DD812F',
-            des: 'OMGOMGOMGOMG YOU’RE ADOPTING ME AREN’T YOU? I CAN SEE IT IN YOUR EYES (人◕ω◕)',
+            des: 'By BERA, for Beras!',
             
         },
         {
             id: 1,
             color:'#7F8929',
-            des: 'Supppp my guy! Talk to me whenever, k?',
+            des: 'Baddest in the land? You\'re lookin\' at HER.',
             
         },
     ].map((i,index)=>{
@@ -52,9 +52,9 @@ export default () => {
             zaiSelector: `${zaiGoBaseUrl}Zai Selector-${i.id}.png`,
             zaiSelectorActive: `${zaiGoBaseUrl}zaiSelector-active-${i.id}.png`,
             cardActive: `${zaiGoBaseUrl}card-active-${i.id}.png`,
-            cardDefault: `${zaiGoBaseUrl}card-default-${i.id}.png?v=2`,
-            figure: `${zaiGoBaseUrl}figure-${i.id}.png?v=2`,
-            figureBg: `${zaiGoBaseUrl}bg (${i.id}).png`,
+            cardDefault: `${zaiGoBaseUrl}card-default-${i.id}.png?v=5`,
+            figure: `${zaiGoBaseUrl}figure-bf-${i.id}.png?v=2`,
+            figureBg: `${zaiGoBaseUrl}bf bg ${i.id}.png?v=2`,
         }
     })
     const visible = ref(false)
