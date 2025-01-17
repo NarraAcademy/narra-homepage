@@ -514,7 +514,7 @@ const appState = useAppState()
   .card-face-1 {
     animation: card-face-1 1.5s linear infinite;
     //&:hover {
-    //  filter: drop-shadow(0px 0px 50px #7F892966) drop-shadow(0px 0px 15px #7F8929B2);
+    //  filter: drop-shadow(0px 0px 50px #cc40a0) drop-shadow(0px 0px 15px #325e86);
     //}
   }
 
@@ -522,7 +522,7 @@ const appState = useAppState()
     animation: card-face-2 1.5s linear infinite;
 
     //&:hover {
-    //  filter: drop-shadow(0px 0px 50px #AB4FEA66) drop-shadow(0px 0px 15px #AB4FEAB2);
+    //  filter: drop-shadow(0px 0px 50px #8e2f3a) drop-shadow(0px 0px 15px #fc844f);
     //}
   }
 
@@ -530,7 +530,7 @@ const appState = useAppState()
     animation: card-face-3 1.5s linear infinite;
 
     //&:hover {
-    //  filter: drop-shadow(0px 0px 50px #F9490F66) drop-shadow(0px 0px 15px #F9490FB2);
+    //  filter: drop-shadow(0px 0px 50px #d78415) drop-shadow(0px 0px 15px #fbc80b);
     //}
   }
 
@@ -538,7 +538,7 @@ const appState = useAppState()
     animation: card-face-4 1.5s linear infinite;
 
     //&:hover {
-    //  filter: drop-shadow(0px 0px 50px #47B6F466) drop-shadow(0px 0px 15px #47B6F4B2);
+    //  filter: drop-shadow(0px 0px 50px #1c374f) drop-shadow(0px 0px 15px #325e86);
     //}
   }
 
@@ -546,7 +546,7 @@ const appState = useAppState()
     animation: card-face-5 1.5s linear infinite;
 
     //&:hover {
-    //  filter: drop-shadow(0px 0px 50px #DD812F66) drop-shadow(0px 0px 15px #DD812FB2);
+    //  filter: drop-shadow(0px 0px 50px #b1987c) drop-shadow(0px 0px 15px #DD812FB2);
     //}
   }
 
@@ -554,7 +554,7 @@ const appState = useAppState()
     animation: card-face-6 1.5s linear infinite;
 
     //&:hover {
-    //  filter: drop-shadow(0px 0px 50px #DD812F66) drop-shadow(0px 0px 15px #DD812FB2);
+    //  filter: drop-shadow(0px 0px 50px #b1987c) drop-shadow(0px 0px 15px #DD812FB2);
     //}
   }
 
@@ -568,65 +568,65 @@ const appState = useAppState()
 
   @keyframes card-face-1 {
     0% {
-      filter: drop-shadow(0px 0px 0px #7F892966) drop-shadow(0px 0px 0px #7F8929B2);
+      filter: drop-shadow(0px 0px 0px #cc40a063) drop-shadow(0px 0px 0px #f89ae0);
     }
     50% {
-      filter: drop-shadow(0px 0px 50px #7F892966) drop-shadow(0px 0px 15px #7F8929B2);
+      filter: drop-shadow(0px 0px 50px #cc40a063) drop-shadow(0px 0px 15px #f89ae0);
     }
     100% {
-      filter: drop-shadow(0px 0px 0px #7F892966) drop-shadow(0px 0px 0px #7F8929B2);
+      filter: drop-shadow(0px 0px 0px #cc40a063) drop-shadow(0px 0px 0px #f89ae0);
     }
   }
 
 
   @keyframes card-face-2 {
     0% {
-      filter: drop-shadow(0px 0px 0px #AB4FEA66) drop-shadow(0px 0px 0px #AB4FEAB2);
+      filter: drop-shadow(0px 0px 0px #8e2f3a61) drop-shadow(0px 0px 0px #fc844f);
     }
     50% {
-      filter: drop-shadow(0px 0px 50px #AB4FEA66) drop-shadow(0px 0px 15px #AB4FEAB2);
+      filter: drop-shadow(0px 0px 50px #8e2f3a61) drop-shadow(0px 0px 15px #fc844f);
     }
     100% {
-      filter: drop-shadow(0px 0px 0px #AB4FEA66) drop-shadow(0px 0px 0px #AB4FEAB2);
+      filter: drop-shadow(0px 0px 0px #8e2f3a61) drop-shadow(0px 0px 0px #fc844f);
     }
   }
 
 
   @keyframes card-face-3 {
     0% {
-      filter: drop-shadow(0px 0px 0px #F9490F66) drop-shadow(0px 0px 0px #F9490FB2);
+      filter: drop-shadow(0px 0px 0px #d783154d) drop-shadow(0px 0px 0px #fbc80b);
     }
     50% {
-      filter: drop-shadow(0px 0px 50px #F9490F66) drop-shadow(0px 0px 15px #F9490FB2);
+      filter: drop-shadow(0px 0px 50px #d783154d) drop-shadow(0px 0px 15px #fbc80b);
     }
     100% {
-      filter: drop-shadow(0px 0px 0px #F9490F66) drop-shadow(0px 0px 0px #F9490FB2);
+      filter: drop-shadow(0px 0px 0px #d783154d) drop-shadow(0px 0px 0px #fbc80b);
     }
   }
 
 
   @keyframes card-face-4 {
     0% {
-      filter: drop-shadow(0px 0px 0px #47B6F466) drop-shadow(0px 0px 0px #7F8929B2);
+      filter: drop-shadow(0px 0px 0px #1c374f60) drop-shadow(0px 0px 0px #325e86);
     }
     50% {
-      filter: drop-shadow(0px 0px 50px #47B6F466) drop-shadow(0px 0px 15px #47B6F4B2);
+      filter: drop-shadow(0px 0px 50px #1c374f60) drop-shadow(0px 0px 15px #325e86);
     }
     100% {
-      filter: drop-shadow(0px 0px 0px #47B6F466) drop-shadow(0px 0px 0px #47B6F4B2);
+      filter: drop-shadow(0px 0px 0px #1c374f60) drop-shadow(0px 0px 0px #325e86);
     }
   }
 
 
   @keyframes card-face-5 {
     0% {
-      filter: drop-shadow(0px 0px 0px #DD812F66) drop-shadow(0px 0px 0px #DD812F66);
+      filter: drop-shadow(0px 0px 0px #95897e51) drop-shadow(0px 0px 0px #b1987c);
     }
     50% {
-      filter: drop-shadow(0px 0px 50px #DD812F66) drop-shadow(0px 0px 15px #DD812F66);
+      filter: drop-shadow(0px 0px 50px #95897e51) drop-shadow(0px 0px 15px #b1987c);
     }
     100% {
-      filter: drop-shadow(0px 0px 0px #DD812F66) drop-shadow(0px 0px 0px #DD812F66);
+      filter: drop-shadow(0px 0px 0px #95897e51) drop-shadow(0px 0px 0px #b1987c);
     }
   }
   @keyframes card-face-6 {
