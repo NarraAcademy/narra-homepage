@@ -4,12 +4,7 @@ import {ref} from "vue";
 export const zaiGoBaseUrl  ='https://oss.narralayer.ai/images/zaiGo/'
 export default () => {
     const cardList = [
-        {
-            id: 6,
-            color:'#b5432b ',
-            des: 'Oh, I’m sorry. I find it hard to remember the names of snacks. Are you a snack? Furthermore, ooga booga.',
-
-        },
+        
         {
             id: 3,
             color:'#F9490F',

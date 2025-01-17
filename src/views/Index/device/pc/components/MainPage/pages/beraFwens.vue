@@ -67,7 +67,7 @@
 import mixin from '@/mixin/bera-fwens.js'
 import {ref} from "vue";
 import {useAppState} from "@/store/modules/app.js";
-import SwiperCard from "@/views/Index/device/pc/components/MainPage/components/swiperCardV2.vue";
+import SwiperCard from "@/views/Index/device/pc/components/MainPage/components/swiperCardV2bf.vue";
 
 function formatter(number) {
   const numbers = number.toString().split('').reverse()
