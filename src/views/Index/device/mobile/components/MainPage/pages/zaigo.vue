@@ -2,7 +2,7 @@
   <div id="zaigo" v-inView="{callback:()=>visible=true}">
     <transition name="opacity">
       <div v-if="visible" v-inView="{callback:()=>visible1=true}" class="title">
-        A new hero has <br> arrived!
+        ZAI-GO
       </div>
     </transition>
     <transition name="opacity">

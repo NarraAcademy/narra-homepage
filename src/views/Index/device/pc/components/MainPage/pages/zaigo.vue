@@ -2,7 +2,7 @@
   <div id="zaigo" v-inView="{callback:()=>visible1=true}">
     <transition name="opacity">
       <div v-if="visible1" v-inView="{callback:()=>visible2=true}" class="title">
-        A new hero has arrived!
+        ZAI-GO
       </div>
     </transition>
     <transition name="opacity">
@@ -20,7 +20,7 @@
     <!--    <transition name="opacity">-->
     <!--      <div v-if="visible" class="bg"></div>-->
     <!--    </transition>-->
-    <transition name="opacity">
+    <!-- <transition name="opacity">
       <div v-if="visible" class="count">
         <div class="count-item">
           <div class="count-item-name">
@@ -28,7 +28,7 @@
           </div>
           <div class="count-item-value">
             ******
-            <!--            <digital-flop :number="120" :formatter="formatter"/>-->
+                       <digital-flop :number="120" :formatter="formatter"/>
           </div>
         </div>
         <div class="count-item">
@@ -37,7 +37,7 @@
           </div>
           <div class="count-item-value">
             ******
-            <!--            <digital-flop :number="230234100" :formatter="formatter"/>-->
+                       <digital-flop :number="230234100" :formatter="formatter"/>
           </div>
         </div>
         <div class="count-item">
@@ -46,11 +46,11 @@
           </div>
           <div class="count-item-value">
             ******
-            <!--            <digital-flop :number="231456902" :formatter="formatter"/>-->
+                       <digital-flop :number="231456902" :formatter="formatter"/>
           </div>
         </div>
       </div>
-    </transition>
+    </transition> -->
     <transition name="opacity">
       <div v-if="visible" class="page-inner">
         <div class="camouflage"></div>
