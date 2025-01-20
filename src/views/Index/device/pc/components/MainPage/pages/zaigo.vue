@@ -7,9 +7,7 @@
     </transition>
     <transition name="opacity">
       <div v-if="visible2" v-inView="{callback:()=>visible3=true}" class="des">
-        The big bad bear from the Great White North, BERA’s dry, skewering wit tends to whittle anyone who isn’t already
-        pissing their pants from his towering stature (dude’s 2 friggin meters tall!). But dig a little deeper and
-        you’ll find warm and fuzzy. Just be warned: if you poke the bear, you get the claws.
+        ZAI崽 traversed countless dimensions, each more bewildering than the last, before crash landing on humankind’s Crypto Universe – a realm built on blockchain technology. This universe was unlike anything ZAI崽 had ever seen, with its dynamic, decentralized nature that seemed to offer endless, on-chain possibilities.
       </div>
     </transition>
     <transition name="opacity">

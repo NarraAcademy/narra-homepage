@@ -75,14 +75,14 @@ export  default ()=>{
                     svg: List34,
                     name: 'Dovey',
                     description: 'Advisor',
-                    hoverText: ''
+                    hoverText: 'Founding Partner of Primitive Ventures, with a thesis focused on "Long substance, short status; Long freedom, short coercion." An advocate for decentralized innovation and wellness, she is a prominent voice in the crypto space and beyond.'
                 },
-                {
-                    svg: List31,
-                    name: 'Dr. Cathie',
-                    description: 'AI & Blockchain Scientist',
-                    hoverText: 'With a PhD in Neroscience, Dr. Cathie is a renowned AI and Crypto researcher. As the former ZKML research lead at the Ethereum Foundation, she co-authored ERC 7007 and ERC 7641. Currently, she is the Chief Scientist at ORA and founded a community of 500+ developers.'
-                },
+                // {
+                //     svg: List31,
+                //     name: 'Dr. Cathie',
+                //     description: 'AI & Blockchain Scientist',
+                //     hoverText: 'With a PhD in Neroscience, Dr. Cathie is a renowned AI and Crypto researcher. As the former ZKML research lead at the Ethereum Foundation, she co-authored ERC 7007 and ERC 7641. Currently, she is the Chief Scientist at ORA and founded a community of 500+ developers.'
+                // },
                 {
                     svg: List35,
                     name: 'Matt',

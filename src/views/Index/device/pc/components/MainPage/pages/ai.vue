@@ -55,9 +55,9 @@ const {aiList,visible} = mixin()
     display: flex;
     margin-bottom: 34px;
     width: max-content;
-    animation: _translate 200s infinite normal linear;
+    animation: _translate 300s infinite normal linear;
     &:last-child{
-      animation: translate 200s infinite normal linear;
+      animation: translate 300s infinite normal linear;
       transform: translateX(calc(100vw - 187px * 65));
     }
 
@@ -74,8 +74,8 @@ const {aiList,visible} = mixin()
       border-radius: 24px;
       background: linear-gradient(180deg, #FFE169 0%, #F7B72E 99%);
       img{
-        width: 100%;
-        height: 100%;
+        max-width: 80%;
+        max-height: 90%;
       }
       &:nth-of-type(even) {
         background: linear-gradient(180deg, #FFF200 0%, #FFE169 99.5%);

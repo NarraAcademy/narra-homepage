@@ -98,8 +98,8 @@ const {aiList, visible, visible1, visible2, visible4, visible3, visible5} = mixi
       background: linear-gradient(180deg, #FFE169 0%, #F7B72E 99%);
 
       img {
-        width: 100%;
-        height: 100%;
+
+        max-width: 80%;
       }
 
       &:nth-of-type(even) {
