@@ -20,31 +20,31 @@
     <div class="count">
       <transition-group name="scale-in">
         <div v-if="visible1" v-inView="{callback:()=>visible2 = true}" class="count-item">
-          <div class="count-item-name">
+          <!-- <div class="count-item-name">
             Narra Training Day
           </div>
           <div class="count-item-value">
             ******
-            <!--            <digital-flop :number="120" :formatter="formatter"/>-->
-          </div>
+
+          </div> -->
         </div>
         <div v-if="visible2" v-inView="{callback:()=>visible3 = true}" class="count-item">
-          <div class="count-item-name">
+          <!-- <div class="count-item-name">
             Trainers Enrolled
           </div>
           <div class="count-item-value">
             ******
-            <!--            <digital-flop :number="230234100" :formatter="formatter"/>-->
-          </div>
+
+          </div> -->
         </div>
         <div v-if="visible3" v-inView="{callback:()=>visible4 = true}" class="count-item">
-          <div class="count-item-name">
+          <!-- <div class="count-item-name">
             ZAI In Training
           </div>
           <div class="count-item-value">
             ******
-            <!--            <digital-flop :number="231456902" :formatter="formatter"/>-->
-          </div>
+
+          </div> -->
         </div>
       </transition-group>
     </div>
@@ -183,7 +183,7 @@ watch(activeId, () => {
 }
 
 .count {
-  min-height: 2rem;
+  // min-height: 2rem;
   width: 100%;
   display: flex;
   flex-direction: column;
