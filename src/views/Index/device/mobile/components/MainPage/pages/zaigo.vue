@@ -113,7 +113,7 @@ const cardOpenHandle = () => {
 
 
 const {cardList, visible, visible1, visible2, visible3, visible4, visible5} = mixin()
-const activeId = ref(6)
+const activeId = ref(3)
 const hoverId = ref('')
 const isCardActive = ref(false)
 const cardListClickHandle = (i) => {

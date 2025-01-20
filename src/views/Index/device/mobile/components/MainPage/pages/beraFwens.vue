@@ -2,63 +2,60 @@
   <div id="zaigo" v-inView="{callback:()=>visible=true}">
     <transition name="opacity">
       <div v-if="visible" v-inView="{callback:()=>visible1=true}" class="title">
-        The Narra Team’s Journey into the 
-   <br> Berachain Universe
+        BERA & FWENS
       </div>
     </transition>
     <transition name="opacity">
       <div v-if="visible1" v-inView="{callback:()=>visible2=true}" class="des">
-        The big bad bear from the Great White North, BERA’s dry, skewering wit tends to whittle anyone who isn’t already
-        pissing their pants from his towering stature (dude’s 2 friggin meters tall!). But dig a little deeper and
-        you’ll find warm and fuzzy. Just be warned: if you poke the bear, you get the claws.
+        Guided by Smokey, the Narra Team and ZAI found a vibrant home in the Berachain Universe. Together with Chibi BERA NFTs, ZAI evolves into FWENs—companions beyond BERA—gearing up for TENNIAM, a reality-shifting event. 🙌 Join the journey and explore BERA & FWENS!
       </div>
     </transition>
     <transition name="opacity">
       <div v-if="visible2" v-inView="{callback:()=>visible3=true}" class="subtitle">
-        Begin your Narra journey!
+        Just be warned: if you poke the bear, you get the claws.
       </div>
     </transition>
     <div class="count">
       <transition-group name="scale-in">
         <div v-if="visible1" v-inView="{callback:()=>visible2 = true}" class="count-item">
-          <div class="count-item-name">
+          <!-- <div class="count-item-name">
             Narra Training Day
           </div>
           <div class="count-item-value">
             ******
-            <!--            <digital-flop :number="120" :formatter="formatter"/>-->
-          </div>
+
+          </div> -->
         </div>
         <div v-if="visible2" v-inView="{callback:()=>visible3 = true}" class="count-item">
-          <div class="count-item-name">
+          <!-- <div class="count-item-name">
             Trainers Enrolled
           </div>
           <div class="count-item-value">
             ******
-            <!--            <digital-flop :number="230234100" :formatter="formatter"/>-->
-          </div>
+
+          </div> -->
         </div>
         <div v-if="visible3" v-inView="{callback:()=>visible4 = true}" class="count-item">
-          <div class="count-item-name">
+          <!-- <div class="count-item-name">
             ZAI In Training
           </div>
           <div class="count-item-value">
             ******
-            <!--            <digital-flop :number="231456902" :formatter="formatter"/>-->
-          </div>
+
+          </div> -->
         </div>
       </transition-group>
     </div>
 
     <div class="page-inner">
-      <transition name="bottom-in">
+      <!-- <transition name="bottom-in">
         <img v-if="visible4" class="shapes"
-             :src="cardList.find(i=>i.id === activeId)?.shapes" alt="">
+             :src="cardList.find(i=>i.id === activeId)?.shapes" alt=""> -->
         <!--        <div v-if="visible2" v-inView="{callback:()=>visible3=true}" class="aboutMe aboutMe-right" @click="activeId = addActive(activeId+1)"-->
         <!--             :class="'aboutMe-'+activeId"></div>-->
         <!--        <div v-if="visible2" v-inView="{callback:()=>visible3=true}" class="aboutMe aboutMe-left" @click="activeId = addActive(activeId-1)"-->
         <!--             :class="'aboutMe-'+activeId"></div>-->
-      </transition>
+      <!-- </transition> -->
       <transition name="bottom-in">
         <div v-if="visible4"  v-inView="{callback:()=>visible5=true}"  class="center">
           <div class="speechBubble">
@@ -101,10 +98,10 @@
 </template>
 
 <script setup>
-import mixin from '@/mixin/zaigo.js'
+import mixin from '@/mixin/bera-fwens.js'
 import {onMounted, ref, watch} from "vue";
 import {useAppState} from "@/store/modules/app.js";
-import SwiperCard from "@/views/Index/device/mobile/components/MainPage/components/swiperCardV2.vue";
+import SwiperCard from "@/views/Index/device/mobile/components/MainPage/components/swiperCardV2bf.vue";
 
 const cardOpen = ref(false)
 const cardOpenHandle = () => {
@@ -151,12 +148,14 @@ watch(activeId, () => {
 .title {
   text-align: center;
   color: var(--color-7) !important;
+  font-size: 0.45rem !important;
 }
 
 .subtitle {
   text-align: center;
   margin-bottom: 0.6rem;
   color: var(--color-1) !important;
+  padding: 0 0.2rem;
 }
 
 .des {
@@ -184,7 +183,7 @@ watch(activeId, () => {
 }
 
 .count {
-  min-height: 2rem;
+  // min-height: 2rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -227,6 +226,7 @@ watch(activeId, () => {
 
 .center {
   position: absolute;
+
   left: 0;
   height: 100%;
   width: 100%;
@@ -246,25 +246,28 @@ watch(activeId, () => {
   background-position: center;
   background-size: 100% 100%;
 
+
+
   .speechBubbleBg {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
-    left: 0;
+    left: 10%;
     z-index: 1;
+    transform: scale(0.8);
   }
 
   .text {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translate(-57%, -70%);
     width: 2.2rem;
     font-size: 0.2rem;
     line-height: 0.26rem;
     font-family: "Prototype";
-    color: #EDE4CC;
+    color: #38261e;
     z-index: 2;
   }
 
@@ -277,109 +280,109 @@ watch(activeId, () => {
 }
 
 .figure-bg-1 {
-  width: 3.17rem;
-  height: 2.82rem;
-  bottom: 0.5rem;
-  left: 50%;
-  transform: translateX(-50%) rotateZ(30deg) scale(1.2);
+  width: 130%;
+
+left: -20%;
+bottom: 0;
 }
 
 .figure-bg-1-enter-from,
 .figure-bg-1-leave-to {
   opacity: 0;
-  transform: translateX(-50%) rotateZ(0deg);
+  transform: translateX(0) rotateZ(-46.5deg);
   transition: opacity 0.3s, transform 0.3s;
 }
 
 .figure-bg-1-enter-to {
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s 0.1s;
-  transform: translateX(-50%) rotateZ(30deg) scale(1.2);
+  transform: translateX(0) rotateZ(0deg) scale(1);
 }
 
 
 .figure-bg-2 {
-  width: 10rem;
-  height: 9rem;
-  bottom: -3rem;
-  left: 50%;
-  transform: translateX(-50%) rotateZ(0deg);
+ 
+  width: 130%;
+
+  left: -20%;
+  bottom: 0;
 }
 
 .figure-bg-2-enter-from,
 .figure-bg-2-leave-to {
   opacity: 0;
-  transform: translateX(-50%) rotateZ(50deg) scale(0.8);
+  transform: translateX(0) rotateZ(-46.5deg);
   transition: opacity 0.3s, transform 0.3s;
+
 }
 
 .figure-bg-2-enter-to {
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s 0.1s;
-  transform: translateX(-50%) rotateZ(0deg);
+  transform: translateX(0) rotateZ(0deg) scale(1);
 }
 
 .figure-bg-3 {
-  width: 4.1rem;
-  height: 4rem;
-  bottom: -0.42rem;
-  left: 50%;
-  transform: translateX(-50%) rotateZ(-46.5deg) scale(1.15);
+
+  width: 130%;
+
+  left: -20%;
+  bottom: 0;
+  
+  // transform: translateX(-50%) rotateZ(-46.5deg) scale(1.15);
 }
 
 .figure-bg-3-enter-from,
 .figure-bg-3-leave-to {
   opacity: 0;
-  transform: translateX(-50%) rotateZ(0deg);
+  transform: translateX(0) rotateZ(-46.5deg);
   transition: opacity 0.3s, transform 0.3s;
 }
 
 .figure-bg-3-enter-to {
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s 0.1s;
-  transform: translateX(-50%) rotateZ(-46.5deg) scale(1.15);
+  transform: translateX(0) rotateZ(0deg) scale(1);
 }
 
 .figure-bg-4 {
-  width: 8.32rem;
-  height: 4.44rem;
-  bottom: -0.5rem;
-  left: 50%;
-  transform: translateX(-50%) rotateZ(0deg) scale(1);
+  width: 130%;
+
+left: -20%;
+bottom: 0;
 }
 
 .figure-bg-4-enter-from,
 .figure-bg-4-leave-to {
   opacity: 0;
-  transform: translateX(-50%) rotateZ(56deg) scale(0.8);
+  transform: translateX(0) rotateZ(-46.5deg);
   transition: opacity 0.3s, transform 0.3s;
 }
 
 .figure-bg-4-enter-to {
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s 0.1s;
-  transform: translateX(-50%) rotateZ(0deg) scale(1);
+  transform: translateX(0) rotateZ(0deg) scale(1);
 }
 
 .figure-bg-5 {
-  width: 8.32rem;
-  height: 4.44rem;
-  bottom: -0.43rem;
-  left: 50%;
-  transform: translateX(-50%) rotateZ(0deg) scale(1);
+  width: 130%;
+
+left: -20%;
+bottom: 0;
 }
 
 .figure-bg-5-enter-from,
 .figure-bg-5-leave-to {
   opacity: 0;
-  transform: translateX(-50%) rotateZ(41deg) scale(0.82);
+  transform: translateX(0) rotateZ(-46.5deg);
   transition: opacity 0.3s, transform 0.3s;
 }
 
 .figure-bg-5-enter-to {
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s 0.1s;
-  transform: translateX(-50%) rotateZ(0deg) scale(1);
+  transform: translateX(0) rotateZ(0deg) scale(1);
 }
 
 .figure-bg-6 {
@@ -423,11 +426,12 @@ watch(activeId, () => {
 }
 
 .figure-3 {
-  width: 3.2rem;
-  height: 4.07rem;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-38%);
+  // width: 3.2rem;
+  // height: 4.07rem;
+  // bottom: 0;
+  // left: 50%;
+  // transform: translateX(-38%);
+  max-height: 450px;
 }
 
 .figure-4 {
@@ -445,8 +449,9 @@ watch(activeId, () => {
   z-index: 5;
 }
 .figure-6 {
-  width: 5.94rem;
-  height: 3.9099rem;
+
+
+  max-height: 450px;
   left: 50%;
   bottom: -0.1rem;
   transform: translateX(-50%);

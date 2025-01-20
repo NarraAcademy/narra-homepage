@@ -2,7 +2,7 @@
   <div id="zaigo" v-inView="{callback:()=>visible1=true}">  
     <transition name="opacity">
       <div v-if="visible1" v-inView="{callback:()=>visible2=true}" class="title">
-        The Narra Team’s Journey into the Berachain Universe
+        BERA&FWENS
       </div>
     </transition>
     <transition name="opacity">

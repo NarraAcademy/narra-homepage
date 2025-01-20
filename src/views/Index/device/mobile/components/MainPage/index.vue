@@ -4,6 +4,7 @@
     <div class="page-inner">
       <home/>
       <understanding/>
+      <bera-fwens/>
       <zaigo/>
       
       <our-vision/>
@@ -24,6 +25,7 @@ import Home from "@/views/Index/device/mobile/components/MainPage/pages/home.vue
 import understanding from "@/views/Index/device/mobile/components/MainPage/pages/understanding.vue";
 import Ai from "@/views/Index/device/mobile/components/MainPage/pages/ai.vue";
 import Zaigo from "@/views/Index/device/mobile/components/MainPage/pages/zaigo.vue";
+import BeraFwens from "@/views/Index/device/mobile/components/MainPage/pages/beraFwens.vue";
 import OurVision from "@/views/Index/device/mobile/components/MainPage/pages/ourVision.vue";
 import NarraVideo from "@/views/Index/device/mobile/components/MainPage/pages/narraVideo.vue";
 import HitBlock from "@/views/Index/device/mobile/components/MainPage/pages/hitBlock.vue";
