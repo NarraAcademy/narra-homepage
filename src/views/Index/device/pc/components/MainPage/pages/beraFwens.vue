@@ -2,7 +2,7 @@
   <div id="zaigo" v-inView="{callback:()=>visible1=true}">  
     <transition name="opacity">
       <div v-if="visible1" v-inView="{callback:()=>visible2=true}" class="title">
-        BERA&FWENS
+        BERA & FWENS
       </div>
     </transition>
     <transition name="opacity">
@@ -99,6 +99,7 @@ const appState = useAppState()
 .title {
   text-align: center;
   color: var(--color-7) !important;
+  font-size: 0.15rem !important;
 }
 
 .subtitle {
