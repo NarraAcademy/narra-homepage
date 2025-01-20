@@ -1,22 +1,21 @@
 <template>
   <main class="main">
-    <div class="bg"></div>
-    <div class="page-inner">
+    <div class="page-center">
       <h1 class="title">
         Media Kit
       </h1>
       <ul class="content">
         <li class="content-item" v-for="(i,index) in mainList" :key="i.title" :class="'content-item-'+index">
           <h2 v-if="i.title" class="content-item-title">{{ i.title }}</h2>
-          <img v-if="i.btn" class="download-btn" :src="downloadBtn" alt="" @click="downloadAssetHandle">
           <div v-if="i.description" class="content-item-des" v-html="i.description"></div>
+          <img v-if="i.btn" class="download-btn" :src="downloadBtn" alt="" @click="downloadAssetHandle">
           <ul v-if="i.list" class="content-item-list">
             <li v-for="it in i.list" :key="it.name" class="content-item-list-item">
               <img class="content-item-list-item-img" :src="it.svg" alt="">
               <div v-if="it.description" class="content-item-list-item-des" v-html="it.description"></div>
               <div class="btn-group" v-if="index>1">
-                <img src="~@/assets/images/pc/mediakit/Button-svg.png" alt="" @click="downloadHandle(it.svg)">
-                <img src="~@/assets/images/pc/mediakit/Button-png.png" alt="" @click="downloadHandle(it.png)">
+                <img src="~@/assets/images/mobile/mediakit/Button-svg.png" alt="" @click="downloadHandle(it.svg)">
+                <img src="~@/assets/images/mobile/mediakit/Button-png.png" alt="" @click="downloadHandle(it.png)">
               </div>
             </li>
           </ul>
@@ -28,27 +27,26 @@
 
 <script setup>
 import {reactive} from "vue";
-import BrandColors1 from '@/assets/images/pc/mediakit/BrandColors1.png'
-import BrandColors2 from '@/assets/images/pc/mediakit/BrandColors2.png'
-import BrandColors3 from '@/assets/images/pc/mediakit/BrandColors3.png'
+import BrandColors1 from '@/assets/images/mobile/mediakit/BrandColors1.png'
+import BrandColors2 from '@/assets/images/mobile/mediakit/BrandColors2.png'
+import BrandColors3 from '@/assets/images/mobile/mediakit/BrandColors3.png'
 import {downloadHandle} from "@/utils/utils.js";
-import mixin from "@/views/mediaKit/device/mixin.js";
-import downloadBtn from '@/assets/images/assets-download.svg'
+import mixin from "@/views/mediakit/device/mixin.js";
+import downloadBtn from "@/assets/images/assets-download.svg";
 
 const {cardList,downloadAssetHandle} = mixin()
-
 const mainList = reactive([
   {
     description: "To keep our logo looking sharp and easy to recognize, please ensure a clear buffer around it. This space should be free from text and other elements, and ideally, it should be as tall and as wide as the logo itself — feel free to add a bit more room! <br><br>" +
         "Here are some guidelines to keep our logo looking its best:<br>" +
-        "<ul>" +
-        "<li style='list-style: disc inside;text-indent: 10px'>Let’s keep the logo true to its form — no stretching, rotating, or distorting.</li>" +
-        "<li style='list-style: disc inside;text-indent: 10px'>Stick to our brand’s color palette.</li>" +
-        "<li style='list-style: disc inside;text-indent: 10px'>Keep the logo fully opaque.</li>" +
-        "<li style='list-style: disc inside;text-indent: 10px'>Our logo looks its best as a whole, so please don’t take it apart.</li>" +
-        "<li style='list-style: disc inside;text-indent: 10px'>Steer clear of adding text or image effects.</li>" +
-        "<li style='list-style: disc inside;text-indent: 10px'>Don’t outline the logo.</li>" +
-        "<li style='list-style: disc inside;text-indent: 10px'>We thank you for maintaining our logo\"s integrity and style!</li>" +
+        "<ul style='padding-left: 0.25rem'>" +
+        "<li style='list-style: disc ;'>Let’s keep the logo true to its form — no stretching, rotating, or distorting.</li>" +
+        "<li style='list-style: disc ;'>Stick to our brand’s color palette.</li>" +
+        "<li style='list-style: disc ;'>Keep the logo fully opaque.</li>" +
+        "<li style='list-style: disc ;'>Our logo loo ks its best as a whole, so please don’t take it apart.</li>" +
+        "<li style='list-style: disc ;'>Steer clear of adding text or image effects.</li>" +
+        "<li style='list-style: disc ;'>Don’t outline the logo.</li>" +
+        "<li style='list-style: disc ;'>We thank you for maintaining our logo\"s integrity and style!</li>" +
         "</ul>",
   },
   {
@@ -71,7 +69,7 @@ const mainList = reactive([
       }
     ]
   },
-  ...cardList
+    ...cardList
 ])
 
 </script>
@@ -79,45 +77,32 @@ const mainList = reactive([
 <style lang="scss" scoped>
 
 .main {
-  //position: relative;
+  position: relative;
   z-index: 0;
   overflow: hidden;
-  min-height: calc(var(--vh) - 352px + 30px);
-  //background: radial-gradient(50% 50% at 50% 50%, #1D2C31 0%, #0E171A 100%);
+  min-height: calc(var(--vh) - 7.295rem + 0.4rem);
+  background: radial-gradient(50% 50% at 50% 50%, #1D2C31 0%, #0E171A 100%);
 }
 
-.page-inner {
-  position: relative;
+.page-center {
   width: 100%;
-  padding: 76px 64px 94px 64px;
+  padding: 0.4rem 0.235rem 0.87rem ;
 }
 
-.bg {
-  position: absolute;
-  width: 714px;
-  height: 1885px;
-  top: 0;
-  right: 0;
-  z-index: 0;
-  background: url("@/assets/images/pc/mediakit/bg.png") no-repeat center/ 100% 100%;
-}
-
-.title {
-  max-width: var(--page-inner-width);
+.title{
   font-family: "RAXON-Regular";
-  font-size: 48px;
+  font-size: 0.32rem;
   font-weight: 400;
-  line-height: 52px;
+  line-height: 0.36rem;
   color: #FAAC07;
-  margin: 0 auto 32px;
+  margin-bottom: 0.32rem;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  margin: 0 auto;
-  max-width: var(--page-inner-width);
+  gap: 0.48rem;
+  width: 100%;
 
   &-item {
     display: flex;
@@ -125,38 +110,39 @@ const mainList = reactive([
 
     &-title {
       color: #EDE4CC;
-      font-size: 28px;
-      line-height: 36px;
+      font-size: 0.28rem;
+      line-height: 0.36rem;
       font-family: "Prototype";
-      margin-bottom: 32px;
+      margin-bottom: 0.32rem;
     }
 
     &-des {
       width: 100%;
-      max-width: 867px;
       color: #fff;
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 0.16rem;
+      line-height: 0.24rem;
       font-family: "KrossNeueGrotesk-Regular";
     }
 
     &-list {
       display: flex;
-      gap: 24px;
+      gap: 0.2rem;
+      flex-wrap: wrap;
 
       &-item {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 0.24rem;
 
-        &-img {
-          width: 154px;
-          height: 154px;
-        }
+        //&-img {
+        //  width: 154px;
+        //  height: 154px;
+        //}
 
         &-des {
-          font-size: 14px;
-          line-height: 18px;
+          //text-indent: 30px;
+          font-size: 0.16rem;
+          line-height: 0.24rem;
           color: #fff;
           font-family: "KrossNeueGrotesk-Regular";
         }
@@ -165,10 +151,9 @@ const mainList = reactive([
   }
 
   .content-item-1 {
-
     .content-item-list-item-img {
-      width: 154px;
-      height: 154px;
+      width: 1.63rem;
+      height: 1.54rem;
     }
 
     .content-item-list-item-des {
@@ -177,32 +162,32 @@ const mainList = reactive([
     }
   }
 
-  .content-item-3,.content-item-4 {
+  .content-item-3, .content-item-4 {
     .content-item-list {
-      gap: 24px;
+      gap: 0.24rem;
       flex-wrap: wrap;
     }
 
     .content-item-list-item-img {
-      border-radius: 20px;
-      width: 520px;
-      height: 200px;
+      border-radius: 0.2rem;
+      width: 3.45rem;
+      height: 1.3269rem;
     }
 
     .btn-group {
       display: flex;
       justify-content: center;
-      gap: 16px;
-
-      img {
-        cursor: pointer;
+      gap: 0.16rem;
+      img{
+        width: 1.645rem;
+        height: 0.4rem;
       }
     }
   }
 }
 .download-btn{
-  width: 270px;
-  height: 84px;
+  width: 2.7rem;
+  height: 0.84rem;
   cursor: pointer;
 }
 </style>

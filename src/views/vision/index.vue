@@ -1,5 +1,5 @@
 <template>
-  <div class="mediaKit">
+  <div class="mediakit">
     <pc v-if="appState.media ==='pc'"></pc>
     <mobile v-if="appState.media ==='mobile'"></mobile>
   </div>

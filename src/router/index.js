@@ -24,9 +24,9 @@ const router = createRouter({
         //     }
         // },
         {
-            path: "/mediaKit",
-            name: "mediaKit",
-            component: ()=>import('@/views/mediaKit/index.vue'),
+            path: "/mediakit",
+            name: "mediakit",
+            component: ()=>import('@/views/mediakit/index.vue'),
         },
         {
             path: "/vision",
