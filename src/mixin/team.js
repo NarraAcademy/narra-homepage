@@ -48,13 +48,13 @@ export  default ()=>{
         },
         {
             title: 'Project Leads',
-            description: 'Project leader team combines OG crypto developers, global user growth experts, and versatile designers skilled in animation and AI, offering a comprehensive mix of expertise.',
+            description: 'Our Project Leader Team combines OG crypto developers, global user growth experts, and versatile designers skilled in animation and AI, offering a comprehensive mix of expertise.',
             list: [
                 {
-                    svg: Kyle,
-                    name: 'Kyle',
-                    description: 'Development Lead',
-                    hoverText: 'For the past 7 years, Kyle has delved deep into Web3 technology, crafting over 100 visionary projects and guiding a team of 30+ technical wizards. His expertise in product design and technical implementation is unparalleled. These days, he\'s building an exciting infrastructure for ZAI崽 and the future of Narra, brimming with boundless possibilities and thrilling prospects.\n'
+                    svg: Rachel,
+                    name: 'Rachel',
+                    description: 'Design Lead',
+                    hoverText: 'With 14 years of experience across diverse design backgrounds, strategy, and project management, she is a passionate and innovative creative leader. Known for her keen eye for detail and deep appreciation for indie design, she now focuses her expertise on designing ZAI崽\'s new home, ensuring it blends technological comfort with aesthetic charm.'
                 },
                 {
                     svg: Ian,
@@ -63,22 +63,22 @@ export  default ()=>{
                     hoverText: 'Ian is a growth, social, and marketing expert with a passion for storytelling, who pioneered Amazon Prime Video’s social media presence across Southeast Asia. After meeting ZAI崽, he is now focused on uncovering the mysterious history of ZAI崽—exploring its origins, journey, and motivations. He is on a dedicated quest to unravel a compelling story waiting to be discovered.'
                 },
                 {
-                    svg: Rachel,
-                    name: 'Rachel',
-                    description: 'Design Lead',
-                    hoverText: 'With 14 years of experience across diverse design backgrounds, strategy, and project management, she is a passionate and innovative creative leader. Known for her keen eye for detail and deep appreciation for indie design, she now focuses her expertise on designing ZAI崽\'s new home, ensuring it blends technological comfort with aesthetic charm.'
+                    svg: Kyle,
+                    name: 'Kyle',
+                    description: 'Development Lead',
+                    hoverText: 'For the past 7 years, Kyle has delved deep into Web3 technology, crafting over 100 visionary projects and guiding a team of 30+ technical wizards. His expertise in product design and technical implementation is unparalleled. These days, he\'s building an exciting infrastructure for ZAI崽 and the future of Narra, brimming with boundless possibilities and thrilling prospects.\n'
                 },
                 {
                     svg: Uking,
                     name: 'Uking',
                     description: 'Partnerships Lead',
-                    hoverText: 'UKING is a strategic leader driving Narra\'s growth through innovative partnerships. Leveraging her Google experience, she excels in building impactful collaborations. Focused on enhancing ZAI崽 and Trainer experiences, she actively seeks new opportunities. Outside work, she explores emerging trends and technologies to stay ahead.'
+                    hoverText: 'Leveraging her Google experience and sunshine attitude, Uking is Narra\'s strategic leader for innovative partnerships and impactful collaborations. New opportunities always excite her. And she loves fostering better and better ZAI崽 to Trainer experiences and skiing.'
                 },
                 {
                     svg: Duy,
                     name: 'Duy',
                     description: 'Lead Developer',
-                    hoverText: 'Backend Chef, crafting architecture and solutions like a magician'
+                    hoverText: 'Backend Chef who\'s cooking architecture and tech solutions like a magician. All the while watching his favorite anime and enjoying lots and lots of sushi.'
                 },
                 {
                     svg: Karan,
@@ -96,7 +96,7 @@ export  default ()=>{
                     svg: Jani,
                     name: 'Jani',
                     description: 'Advisor',
-                    hoverText: 'honey jar owner, Eggs, omelette, Cloud Eggs '
+                    hoverText: 'Spiritual leader of The Honey Jar. Saw ZAI崽 and started compiling an egg recipe book to co-cook with Narra.'
                 },
                 {
                     svg: Dovey,
@@ -114,7 +114,7 @@ export  default ()=>{
                     svg: Matt,
                     name: 'Matt',
                     description: 'Gamification & Community',
-                    hoverText: 'Develops robust social media channel strategies and grow thriving communities for AAA game studios. | Ex-Riot, Ex-Garena'
+                    hoverText: 'Ex-Riot, Ex-Garena, Community and Gamification specialist. Collects Pokémon cards and now on a mission to catch them all (Narra\'s version)!'
                 },
                 // {
                 //     svg: List32,

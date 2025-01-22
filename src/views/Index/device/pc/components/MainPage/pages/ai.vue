@@ -2,7 +2,7 @@
   <div v-inView="{callback:()=>visible = true}" id="ai">
     <transition name="scale-in">
     <div v-if="visible" class="subtitle">
-      Shaping the future of cryptographic painting AI, Narra <br>is unstoppable
+      Partners who are shaping the future of AI + Crypto with Narra!
     </div>
     </transition>
     <transition name="bottom-in">

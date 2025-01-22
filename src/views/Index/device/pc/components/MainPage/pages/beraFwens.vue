@@ -8,12 +8,12 @@
     <transition name="opacity">
       <div v-if="visible2" v-inView="{callback:()=>visible3=true}" class="des">
 
-        Guided by Smokey, the Narra Team and ZAI found a vibrant home in the Berachain Universe. Together with Chibi BERA NFTs, ZAI evolves into FWENs—companions beyond BERA—gearing up for TENNIAM, a reality-shifting event. 🙌 Join the journey and explore BERA & FWENS!
+        Welcomed by Smokey, the Narra Training Academy and ZAI崽 found a vibrant home in the Berachain Universe. ZAI崽 learnt and evolved into BERA & FWENS, a motley crew of Berachain OGs, movers, and shakers. 
       </div>
     </transition>
     <transition name="opacity">
       <div v-if="visible3" v-inView="{callback:()=>visible=true}" class="subtitle">
-        Just be warned: if you poke the bear, you get the claws.
+        Are you ready to journey into Q5 with them?
       </div>
     </transition>
     <!--    <transition name="opacity">-->

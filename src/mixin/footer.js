@@ -2,6 +2,7 @@ import X from "@/assets/images/pc/footer/x.png";
 import TG from "@/assets/images/pc/footer/telegram.png";
 import YT from "@/assets/images/pc/footer/youtube.png";
 import TT from "@/assets/images/pc/footer/tiktok.png";
+import discord from "@/assets/images/pc/footer/discord.png";
 import IG from "@/assets/images/pc/footer/instagram.png";
 import {computed, ref} from "vue";
 import apis from "@/utils/apis.js";
@@ -16,25 +17,27 @@ export default ()=>{
             link: "https://x.com/narralayer",
         },
         {
-            icon: TG,
-            link: "https://t.me/+aKBbOTDVwFs5YjI1",
-        },
+            icon: discord,
+            link: "",
+          },
+        
+        
         // {
-        //   icon: discord,
-        //   link: "",
+        //     icon: YT,
+        //     link: "https://youtube.com/@narralayer",
         // },
-        {
-            icon: YT,
-            link: "https://youtube.com/@narralayer",
-        },
         {
             icon: TT,
             link: "https://tiktok.com/@narralayer",
         },
         {
-            icon: IG,
-            link: "https://www.instagram.com/narralayer",
+            icon: TG,
+            link: "https://t.me/+aKBbOTDVwFs5YjI1",
         },
+        // {
+        //     icon: IG,
+        //     link: "https://www.instagram.com/narralayer",
+        // },
     ];
     const email = ref("");
     const emailSubmiting = ref(false);

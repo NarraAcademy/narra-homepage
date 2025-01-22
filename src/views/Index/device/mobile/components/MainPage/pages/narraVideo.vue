@@ -6,7 +6,7 @@
       </div>
     </transition>
     <transition name="left-in">
-      <div v-if="visible" class="title">Trainer Resources</div>
+      <div v-if="visible" class="title">Stream Narra</div>
     </transition>
     <transition name="bottom-in">
       <div v-if="visible" class="media-youtubo">

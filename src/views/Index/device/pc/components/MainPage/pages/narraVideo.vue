@@ -6,7 +6,7 @@
       </div>
     </transition>
     <transition name="left-in">
-      <div v-if="visible" class="title">More Information</div>
+      <div v-if="visible" class="title">Stream Narra</div>
     </transition>
     <transition name="scale-in">
       <div v-inView="{callback:()=>visible1 = true}" v-if="visible" class="media-youtubo">

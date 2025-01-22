@@ -8,16 +8,19 @@
     <div class="page-inner">
       <transition-group name="bottom-in">
       <h1 v-if="visible2" v-inView="{callback:()=>visible3 = true}" class="title">
-        Build your
+        Hatch your
       </h1>
       <h1 v-if="visible2" v-inView="{callback:()=>visible3 = true}" class="title yellow">
-        HERO
+        AI Agent
       </h1>
       <h1 v-if="visible2" v-inView="{callback:()=>visible3 = true}" class="title">
         with us!
       </h1>
       <div v-if="visible3" v-inView="{callback:()=>visible4 = true}" class="des">
-        Ready to put an AI agent face to your brand or project? The Narra Training Academy is here to help!
+
+Ready to put an AI Agent face to your brand or project? The Narra Training Academy is here to help!
+
+Hit Me Up! replace with LFG!!!
       </div>
       <img v-if="visible4" v-inView="{callback:()=>visible5 = true}" class="bg" :src="img" alt="">
       <a v-if="visible5" class="hit-btn" href='https://docs.google.com/forms/d/e/1FAIpQLSe5xSPSk3BsIo3_xrUYNsNtCKn9VyKwLrsF9KUYevQXD56WAg/viewform' target="_blank">HIT ME UP!</a>

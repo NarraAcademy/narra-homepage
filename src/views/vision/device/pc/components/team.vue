@@ -169,7 +169,7 @@ defineOptions({
             width: 100%;
             height: 100%;
             position: absolute;
-            background: url("@/assets/images/pc/ourVision/list-item-hover-bg.png") no-repeat center / 100% 100%;
+            background: url("@/assets/images/teams/hover.png") no-repeat center / 100% 100%;
             top: 0;
             left: 0;
             transition: 0.3s;

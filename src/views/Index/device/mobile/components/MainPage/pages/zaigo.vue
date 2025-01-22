@@ -2,17 +2,16 @@
   <div id="zaigo" v-inView="{callback:()=>visible=true}">
     <transition name="opacity">
       <div v-if="visible" v-inView="{callback:()=>visible1=true}" class="title">
-        ZAI-GO
+        Narra's AI Agents
       </div>
     </transition>
     <transition name="opacity">
       <div v-if="visible1" v-inView="{callback:()=>visible2=true}" class="des">
-        ZAI崽 traversed countless dimensions, each more bewildering than the last, before crash landing on humankind’s Crypto Universe – a realm built on blockchain technology. This universe was unlike anything ZAI崽 had ever seen, with its dynamic, decentralized nature that seemed to offer endless, on-chain possibilities.
-      </div>
+        ZAI崽 is curious and always ready to learn in order to evolve. Through nurturing ZAI崽, it'll be able to evolve into a Narra AI Agent inspired by the Crypto Universe.</div>
     </transition>
     <transition name="opacity">
       <div v-if="visible2" v-inView="{callback:()=>visible3=true}" class="subtitle">
-        Begin your Narra journey!
+Who will your ZAI崽 evolve into?
       </div>
     </transition>
     <div class="count">
