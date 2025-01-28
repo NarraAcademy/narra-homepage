@@ -13,12 +13,12 @@
         <div class="text">
 
 
-          <span class="text-1">The AI-powered  </span>
+          <span class="text-1">The Web3 AI Agent Game   </span>
           <br>
-          <span class="text-2">Web3 to Web2</span>
+          <span class="text-2">building on</span>
 
           <br>
-          <span class=" yellow text-3"> AI Agent Hatchery</span>
+          <span class=" yellow text-3"> Berachain 🐣🐻</span>
         </div>
         <transition name="left-in">
           <div v-if="visible" class="mascot"></div>
