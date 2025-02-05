@@ -13,9 +13,9 @@
         <div class="text">
 
 
-          <span class="text-1">Berachain Virtuals </span>
-          <br>
-          <span class="text-2">with </span>
+          <span class="text-1">Berachain Virtuals with </span>
+          <!-- <br> -->
+          <span class="text-2"> </span>
 
           <br>
           <span class=" yellow text-3"> Gamified AI Agents</span>
