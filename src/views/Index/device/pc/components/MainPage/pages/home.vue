@@ -25,9 +25,10 @@
         </transition>
       </div>
     </div>
-    <transition name="opacity">
+    <a class="getStarted" href="https://meme.narralayer.ai/">Meme now!</a>
+    <!-- <transition name="opacity">
       <div v-if="visible"  class="getStarted" @click="pushChat">TAKE THE QUIZ!</div>
-    </transition>
+    </transition> -->
   </div>
 </template>
 
