@@ -24,6 +24,10 @@ export default () => {
         //     top:document.querySelector(route).offsetTop-100,
         //     behavior:'smooth'
         // })
+        if (route.startsWith('https://')) {
+          window.open(route, '_blank')
+          return
+        }
         router.push(route)
         menuOpen.value = false
     }
@@ -61,6 +65,10 @@ export default () => {
         // },
         //     ]
         // },
+        {
+            name: "MemeAgent",
+            route: "https://meme.narralayer.ai"
+        },
         {
             name: "Everything Narra",
             route: "vision",
