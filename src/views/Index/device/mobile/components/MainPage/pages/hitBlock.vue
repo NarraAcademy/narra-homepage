@@ -20,10 +20,10 @@
 
 Ready to put an AI Agent face to your brand or project? The Narra Training Academy is here to help!
 
-Hit Me Up! replace with LFG!!!
+
       </div>
       <img v-if="visible4" v-inView="{callback:()=>visible5 = true}" class="bg" :src="img" alt="">
-      <a v-if="visible5" class="hit-btn" href='https://docs.google.com/forms/d/e/1FAIpQLSe5xSPSk3BsIo3_xrUYNsNtCKn9VyKwLrsF9KUYevQXD56WAg/viewform' target="_blank">HIT ME UP!</a>
+      <a v-if="visible5" class="hit-btn" href='https://docs.google.com/forms/d/e/1FAIpQLSe5xSPSk3BsIo3_xrUYNsNtCKn9VyKwLrsF9KUYevQXD56WAg/viewform' target="_blank">LFG!</a>
       </transition-group>
     </div>
   </div>

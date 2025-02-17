@@ -16,9 +16,9 @@
 
 Ready to put an AI Agent face to your brand or project? The Narra Training Academy is here to help!
 
-Hit Me Up! replace with LFG!!!
+
       </div>
-      <a v-if="visible3"  class="hit-btn" href='https://docs.google.com/forms/d/e/1FAIpQLSe5xSPSk3BsIo3_xrUYNsNtCKn9VyKwLrsF9KUYevQXD56WAg/viewform' target="_blank">HIT ME UP!</a>
+      <a v-if="visible3"  class="hit-btn" href='https://docs.google.com/forms/d/e/1FAIpQLSe5xSPSk3BsIo3_xrUYNsNtCKn9VyKwLrsF9KUYevQXD56WAg/viewform' target="_blank">LFG!</a>
       <img  v-if="visible3" class="img" :src="img" alt="">
       </transition-group>
     </div>
