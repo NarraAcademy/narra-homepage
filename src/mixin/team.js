@@ -26,24 +26,24 @@ export  default ()=>{
                     description: 'Co-founder & CEO',
                     hoverText: 'As an avid explorer, Aileen has traversed multiple realms with her loyal cat, GG. From trailblazing marketing efforts at Netflix & Disney Asia, to creating the first metaverse reality show at Binance, they have been inseparable and thick as thieves. Now, they\'ve found a permanent home in Narra, where GG is still trying to figure out how to get ZAI崽 to play hide and seek with him.'
                 },
-                {
-                    svg: Nicole,
-                    name: 'Nicole',
-                    description: 'Co-founder & CMO',
-                    hoverText: 'Nicole is a creative gremlin that spends her days imagining new worlds and creating new universes (when she\'s not gaming). Having led entertainment marketing at Netflix & Prime Video, she now spends her days interacting with ZAI崽, prototyping new adventures for our Trainers (again, when she\'s not gaming).'
-                },
+                // {
+                //     svg: Nicole,
+                //     name: 'Nicole',
+                //     description: 'Co-founder & CMO',
+                //     hoverText: 'Nicole is a creative gremlin that spends her days imagining new worlds and creating new universes (when she\'s not gaming). Having led entertainment marketing at Netflix & Prime Video, she now spends her days interacting with ZAI崽, prototyping new adventures for our Trainers (again, when she\'s not gaming).'
+                // },
                 {
                     svg: Tp,
                     name: 'TP',
                     description: 'Co-founder & COO',
                     hoverText: 'When TP’s not busy leading the charge for Google into Web3, or plotting the next big thing in Layer 1 & BTC Oracle projects, he’s diving deep into the world of rare finds and collectibles. Rumor has it that one of his treasure hunting expeditions had once led him to ZAI崽’s planet, but he’s never spilled the beans, preferring to keep it as his little secret.'
                 },
-                {
-                    svg: Ryan,
-                    name: 'Ryan',
-                    description: 'Co-founder & CTO',
-                    hoverText: 'Ryan is a tech lead crafting state-of-the-art hybrid cloud solutions for global giants, while building enterprise-grade AI in the finance industry. Beyond driving innovation for ultra-large systems, he was also once a sound creator at heart, selling beats and rocking vocals at different gigs. Now (when he has some downtime), he’s holed up in his studio, finding ways to give ZAI崽 a voice in this new world.'
-                }
+                // {
+                //     svg: Ryan,
+                //     name: 'Ryan',
+                //     description: 'Co-founder & CTO',
+                //     hoverText: 'Ryan is a tech lead crafting state-of-the-art hybrid cloud solutions for global giants, while building enterprise-grade AI in the finance industry. Beyond driving innovation for ultra-large systems, he was also once a sound creator at heart, selling beats and rocking vocals at different gigs. Now (when he has some downtime), he’s holed up in his studio, finding ways to give ZAI崽 a voice in this new world.'
+                // }
             ]
         },
         {
