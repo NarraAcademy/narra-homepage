@@ -32,7 +32,4 @@ coverage
 
 .env
 
-.env.production
-.env.test
-
 *.tsbuildinfo
