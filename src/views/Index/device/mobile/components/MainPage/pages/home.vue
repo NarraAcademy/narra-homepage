@@ -13,12 +13,12 @@
         <div class="text">
 
 
-          <span class="text-1">Berachain Virtuals with </span>
+          <span class="text-1">The First AI Entertainment & Orchestration Layer </span>
           <!-- <br> -->
           <span class="text-2"> </span>
 
           <br>
-          <span class=" yellow text-3"> Gamified AI Agents</span>
+          <span class=" yellow text-3"> With Gamified Narragotchi Agents</span>
         </div>
         <transition name="left-in">
           <div v-if="visible" class="mascot"></div>
@@ -96,9 +96,9 @@ const {visible,pushChat} = mixin()
     word-wrap: break-word;
     margin-top: 1rem;
     font-family: Prototype;
-    font-size: 0.32rem;
+    font-size: 0.22rem;
     font-weight: 400;
-    line-height: 0.42rem;
+    line-height: 0.32rem;
     text-align: center;
     color: #EDE4CC;
     -webkit-background-clip: text;
