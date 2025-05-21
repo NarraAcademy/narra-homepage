@@ -18,7 +18,7 @@
           <span class="text-2"> </span>
 
           <br>
-          <span class=" yellow text-3"> build agents, craft identities, grow users.</span>
+          <span class=" yellow text-3">Build Agents, Craft Identities, Grow Users.</span>
         </div>
         <transition name="left-in">
           <div v-if="visible" class="mascot"></div>
