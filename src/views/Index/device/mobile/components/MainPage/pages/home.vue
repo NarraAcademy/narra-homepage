@@ -13,12 +13,12 @@
         <div class="text">
 
 
-          <span class="text-1">The First AI Entertainment & Orchestration Layer </span>
+          <span class="text-1">The Modular AI-Native Growth Layer</span>
           <!-- <br> -->
           <span class="text-2"> </span>
 
           <br>
-          <span class=" yellow text-3"> With Gamified Narragotchi Agents</span>
+          <span class=" yellow text-3"> build agents, craft identities, grow users.</span>
         </div>
         <transition name="left-in">
           <div v-if="visible" class="mascot"></div>
